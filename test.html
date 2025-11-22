@@ -9,12 +9,42 @@
         {
             text-align: center;
             font-size: 3em;
-            color: brown;
+            color: rgb(203, 203, 203);
             text-shadow: 3px 3px 4px black;
+            border: 2px solid black;
+            background:linear-gradient(45deg, purple, red, white);
+        }
+        nav
+        {
+            border: 2px solid black;
+            padding: 12px;
+            background-color: brown;
+        }
+        ul
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.3em;
+            color: white;
+            font-weight: bolder;
         }
     </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Page</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">App</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
